@@ -97,6 +97,8 @@ button {
   .header .header__menu {
     padding-left: 12.7rem;
     display: flex; }
+    .header .header__menu .menu--list:first-child a {
+      color: #8262b5; }
     .header .header__menu .menu--list a {
       text-decoration: none;
       white-space: nowrap;
