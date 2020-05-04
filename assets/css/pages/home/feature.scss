@@ -3,9 +3,9 @@
     font-family: $monster;
     &__title {
         padding-top: 4.7rem;
-        padding-bottom: 4.8rem;
+        padding-bottom: 5rem;
         h5 {
-            letter-spacing: 3px;
+            letter-spacing: 5.2px;
             font-size: 12px;
             color: $purple;
             padding-bottom: 0.5rem;
@@ -40,7 +40,7 @@
                 h4 {
                     cursor: pointer;
                     font-size: 12px;
-                    padding: 1.2rem 1.7rem;
+                    padding: 1.6rem 1.5rem 1.1rem 1.5rem;
                     background-color: white;
                     &:hover {
                         color: $purple;
@@ -51,16 +51,19 @@
     }
     &__card {
         &--text {
-            padding: 1.8rem 0 3.7rem 0;
-            h5 {
-                text-transform: lowercase;
+            padding: 1.65rem 0 4rem 0;
+            h4 {
+                font-weight: 400;
+            }
+            &>h5 {
+                text-transform: initial;
                 font-size: 15px;
                 font-family: $open;
             }
         }
     }
     &__star {
-        padding: 0.6rem 0 1.1rem 0;
+        padding: 0.6rem 0 0.9rem 0;
         display: flex;
         li svg {
             font-size: 12px;
@@ -76,13 +79,15 @@
         display: flex;
         li {
             h4 {
-                padding-right: 0.3rem;
-                font-size: 1.6rem;
+                font-weight: 400;
+                padding-right: 0.1rem;
+                font-size: 1.5rem;
                 color: #999999;
                 text-decoration: line-through #999999;
             }
             h5 {
-                font-size: 1.6rem;
+                font-weight: 500;
+                font-size: 1.5rem;
                 color: $purple;
             }
         }

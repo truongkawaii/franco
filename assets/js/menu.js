@@ -1,6 +1,6 @@
 const menu = {
     init: function() {
-        this.clickShowMenu('.humber', '.header__menu', 'show__menu');
+        this.clickShowMenu('.humber', '.header__menu', 'showMenu');
         this.scrollMenu('.header', 'navMenu');
     },
     clickShowMenu: function(button, navMenu, classTogle) {
